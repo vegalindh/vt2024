@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #FCDBEB;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 2rem;
+}
+.logo {
+    padding-top: 1rem;
+}
+.menu-item {
+    padding-right: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #000;
+    text-decoration: none;
+}
+.active {
+    font-weight: 700;
+}
+footer {
+    height: 330px;
+    background-color: #FCDBEB;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
