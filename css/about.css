@@ -1,0 +1,46 @@
+.cards {
+    padding: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+  .cards > div {
+    flex: 50%;
+  }
+  .card h1 {
+    padding: 1rem;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: calc(50% - 1rem);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    color: grey;
+    font-size: 14px;
+  }
+  
+  .card p {
+    padding: 1rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cards {
+      padding: 4rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      gap: 1rem;
+    }
+    .card {
+      max-width: calc(100% - 1rem);
+    }
+  }
+  
