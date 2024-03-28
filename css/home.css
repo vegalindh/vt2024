@@ -34,4 +34,5 @@
 .right img {
   width: 100%;
   max-width: 465px;
+  max-block-size: 10px;
 }
